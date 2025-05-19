@@ -20,17 +20,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 
-from simpeg.electromagnetics import natural_source as nsem
-from simpeg import (
-    maps,
-    optimization,
-    inversion,
-    inverse_problem,
-    directives,
-    data_misfit,
-    regularization,
-)
-
 try:
     from pymatsolver import Pardiso
 

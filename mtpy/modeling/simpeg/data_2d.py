@@ -10,9 +10,6 @@ Created on Fri Aug  9 12:11:57 2024
 # =============================================================================
 import numpy as np
 
-from simpeg.electromagnetics import natural_source as nsem
-from simpeg import data
-
 import matplotlib.pyplot as plt
 
 
